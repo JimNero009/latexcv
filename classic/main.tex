@@ -148,6 +148,11 @@
 %light background / accent color
 \definecolor{softcol}{RGB}{225,225,225}
 
+%------
+% Links
+%------
+\usepackage{hyperref}
+
 
 %============================================================================%
 %
@@ -311,8 +316,8 @@
 %----------------------------------------------------------------------------------------
 \vspace{-8pt}
 \begin{center}
-	\HUGE \textsc{Jan Küster} \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \textsc{Resume}\\[2pt]
-	\small Consultant and Software Developer
+	\HUGE \textsc{James Cameron-Burn} \textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \textsc{CV}\\[2pt]
+	\small Senior Software Engineer
 \end{center}
 
 
@@ -323,10 +328,9 @@
 %---------------------------------------------------------------------------------------
 %	META SECTION
 %----------------------------------------------------------------------------------------
-\metasection{Bremen, Germany}{\textbf{Status:} M.Sc. Digital Media, Scientific Employee}
-\metasection{www.jankuester.com}{\textbf{Fields:} Software Engineering, Consulting, Scrum, Usability} 
-\metasection{info@jankuester.com}{\textbf{Techs:} Meteor, Javascript, Mongo,. Bootstrap, Bash, Git, Webstorm}
-\metasection{+49 176 *** *** **}{\textbf{Activities:} Global Game Jam, Open Source, Fitness}
+\metasection{Glasgow, Scotland}{\textbf{Birth Name:} James Cockburn}
+\metasection{james.cameronburn@icloud.com}{\textbf{PhD Thesis:} \url{https://arxiv.org/pdf/1707.08221}}
+\metasection{+44 7595 165202}{\textbf{Core Skills:} Python, AWS, CI/CD, Docker, SQL, TypeScript}
 \vspace{-2pt}
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
@@ -338,7 +342,7 @@
 %----------------------------------------------------------------------------------------
 \vspace{-6pt}
 \cvsection{Summary}
-Digital media graduate with project experience in the field of technology based assessment. Currently working as IT Consultant at We4IT, Bremen in the field of IBM Notes Domino and XPages applications. Master studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems.\\
+I am a self-motivated and passionate software engineer with a wide range of experience in modern software engineering technologies and practices. I have a penchant for learning and for making other people's lives easier through the use of technology.
 
 
 %============================================================================%
@@ -350,77 +354,55 @@ Digital media graduate with project experience in the field of technology based 
 %---------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
-\cvsection{Experience}
+\cvsection{Professional Experience}
 
-\cvevent{2016 - present}{Scientific Employee / PhD Student}{University of Bremen}{
-	{Develop and evaluate the next generation learning management system with Meteor},
-	{Define a new level of software for classroom management based on an extensive nursing curriculum.}
+\cvevent{July 2022 - present}{Senior Software Engineer}{Wayflyer}{
+	{Fully designed and implemented an anonymise-then-clone system for developers to test against representative data},
+	{Fully designed and implemented a regression test system leveraging that functionality},
+	{Implemented CLI tooling to allow developers to work on a remote machine whilst remaining within a provided Docker devcontainer},
+	{Implemented fundamental changes to the signup process to improve user experience and data quality with zero downtime}
 }
 
-%
-\cvevent{2014 - 2016}{IT Consultant for IBM XPages and Notes Domino}{We4IT GmbH Bremen}{
-	{Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports},
-	{Implement the frontend for a BPMN compatible engine within We4IT Aveedo}
-}
 
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2012 - 2014}{Scientific Employee / Software Development}{University of Bremen}{
-	{Invented a flexible assessment framework, targeting industrial trainees},
-	{Supervised software development lifecycle, Recruited team members}
+\cvevent{Sep 2017 - July 2022}{Software Engineer/Software Engineer 2/Senior Software Engineer}{Skyscanner}{
+	{Independently implemented a process for language version migrations, resulting in around 300 services moving from Python 3.6 before it became end of life},
+	{Introduced CI-time Docker Image acceptance tests to proactively catch regressions},
+	{Maintained and improved in-house continuous integration and continuous deployment systems},
+	{Maintained and improved in-house microservice libraries and Docker base images for Python, Java and Node.js}
 }
 
 %\textcolor{softcol}{\hrule}
 
-%
-\cvevent{2011 / 11}{Project Management Simulation Training}{Getoq Consulting}{
-	{Performed a two-day project simulation from management perspective},
-	{Topics included customer contracts, change management, controlling, operational tasks}
+\cvsection{Side Projects Experience}
+\cvevent{October 2024 - present}{Full Stack Software Engineer}{New Project}{
+	{Currently developing a new web application in the field of finance management},
+	{Technologies include: Golang, ReactJS with react-router, AWS and Auth0}
 }
 
-%\textcolor{softcol}{\hrule}
-
-
-%
-\cvevent{2010 - 2011}{Student Assistant / Programmer}{otulea.uni-bremen.de}{
-	{Realized an online diagnosis platform for workforce literacy development (Flex)},
-	{Modeled software design, implemented various prototypes, conducted usability tests}
+\cvevent{July 2023 - present}{Full Stack Software Engineer}{Learn with Dr Laura}{
+	{Full technical responsibility of a professional tutoring business, \href{https://learnwithdrlaura.com}{learnwithdrlaura.com}},
+	{Fully designed and implemented the site which includes static marketing content and an authenticated user-facing application for lesson management},
+	{Technologies include: nginx, Vue.js, FastAPI, AWs Route 53, AWS DynamoDB, AWS EC2, AWS SES, AWS Cognito and Python asyncio}
 }
-
 
 %---------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %--------------------------------------------------------------------------------------
 \cvsection{Education}
 
-\cvevent{2015 / 07}{Graduated as M.Sc. Digital Media}{University of Bremen}{
-	{Master Thesis: Semi Automated Scoring in Technology Based Assessment},
-	{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+\cvevent{Aug 2013 - Sep 2017}{PhD Student in Theoretical Particle Physics}{University of Edinburgh}{
+	{Mathematical calculations of particle collision events within the High Energy Jets (HEJ) framework},
+	{C++ implementation of numerical integration techniques to solve the equations in the existing HEJ codebase},
+	{Undergraduate tutoring, with courses covering Quantum Mechanics, Mathematical Physics and Python}
 }
 
 %\textcolor{softcol}{\hrule}
 
 %
-\cvevent{2012 - 2013}{Master Project - PrIMA}{University of Bremen}{
-	{Co-Invented a touch table application for medical support, co-developed software (Java)},
-	{Formed a scrum team, mainted project dev server (Debian), surveyed target audience}
-}
-
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2012 - 2015}{Master Studies Digital Media}{University of Bremen}{
-	{Inter-cultural classes in English, covering special topics in computer science and design},
-	{Professionalized in research methods, software development and e-assessment}
-}
-
-%\textcolor{softcol}{\hrule}
-
-%
-\cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{
-	{Mastered six months of study and trans-cultural experience in Melbourne, Australia},
-	{Finished machine programming, information visualization, professional essay writing}
+\cvevent{Aug 2009 - Aug 2013}{MSci Theoretical Physics}{University College London}{
+	{Graduated with First-Class Honours},
+	{Embedded Master's project included learning C++ from scratch to rewrite a FORTRAN codebase to perform quantum mechanical calculations},
+	{Awarded a prize for 'Best use of software in an undergraduate project'}
 }
 
 
@@ -430,7 +412,7 @@ Digital media graduate with project experience in the field of technology based 
 
 \null
 \vspace*{\fill}
-\hspace{-0.25\linewidth}\colorbox{white}{\makebox[1.5\linewidth][c]{\mystrut  \textnormal{\textcolor{sectcol}{www.jankuester.com} $\cdot$ \textcolor{sectcol}{github.com/jankapunkt}}}}
+\hspace{-0.25\linewidth}\colorbox{white}{\makebox[1.5\linewidth][c]{\mystrut  \textnormal{\textcolor{sectcol}{github.com/JimNero009}}}}
 
 
 
